@@ -20,6 +20,7 @@ class ProductIndex extends React.Component {
       window.total = Snipcart.api.cart.get().total
       console.log(window.count)
       console.log(window.total)
+      
     })
 
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
