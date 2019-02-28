@@ -1,0 +1,18 @@
+$palettes: (
+    footer: (
+        background: #f4f6f8,
+        color--highlight: #aaa
+    )
+);
+
+.snip-footer {
+    background: palette(footer, background)!important;
+}
+
+.snip-footer__highlight {
+    color: palette(footer, color--highlight)!important;
+}
+
+.snipcart-step {
+  display: none!important;
+}

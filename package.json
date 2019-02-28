@@ -1,0 +1,64 @@
+{
+  "name": "ftg",
+  "private": true,
+  "description": "An online apparel store supporting the cause",
+  "version": "0.1.0",
+  "author": "Eric 'Oz' Andren <hello@ericandren.com>",
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "chroma-js": "^2.0.3",
+    "gatsby": "^2.1.18",
+    "gatsby-image": "^2.0.30",
+    "gatsby-plugin-feed": "^2.0.13",
+    "gatsby-plugin-google-analytics": "^2.0.14",
+    "gatsby-plugin-manifest": "^2.0.19",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.7",
+    "gatsby-plugin-sass": "^2.0.10",
+    "gatsby-plugin-sharp": "^2.0.22",
+    "gatsby-remark-copy-linked-files": "^2.0.9",
+    "gatsby-remark-images": "^2.0.6",
+    "gatsby-remark-prismjs": "^3.2.4",
+    "gatsby-remark-responsive-iframe": "^2.0.9",
+    "gatsby-remark-smartypants": "^2.0.8",
+    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-transformer-remark": "^2.2.6",
+    "gatsby-transformer-sharp": "^2.1.14",
+    "node-sass": "^4.11.0",
+    "prismjs": "^1.15.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-helmet": "^5.2.0",
+    "react-icons-kit": "^1.2.1",
+    "react-reveal": "^1.2.2",
+    "react-select": "^2.4.1",
+    "react-slideshow-image": "^1.1.2",
+    "react-tooltip": "^3.9.2",
+    "reset-css": "^4.0.1",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  }
+}
